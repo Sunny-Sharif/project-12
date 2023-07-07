@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-praymery-color {
+    color: #FD6E0A
+}
+
+.nav-manu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 226px;
+}
+
+.nav-text {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+}
