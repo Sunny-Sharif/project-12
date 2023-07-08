@@ -23,9 +23,9 @@
 
 header {
     background-color: #fff4ff;
-    background-image: url("./images/header_bg.png");
+    background-image: url("./images/header_bg.png"), url("./images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 }
 
 .nav-manu-bar {
@@ -168,4 +168,175 @@ main {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+}
+
+
+/* skil section */
+
+.section-head {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.section-info {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 100px;
+}
+
+.skil-containar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.skil-info {
+    color: white;
+    padding: 30px 20px;
+    margin: 10px;
+    background-color: #FD6E0A;
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(102, 101, 101);
+}
+
+.skil-head {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.skil-discreption {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+
+/* section resume */
+
+.resume-section {
+    margin-top: 50px;
+}
+
+.resume-caption {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 80px;
+}
+
+.resume-titel {
+    padding-bottom: 20px;
+}
+
+
+/* colum resume */
+
+.resume {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resume-colum {
+    width: 500px;
+}
+
+.resume-h2 {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.resume-h3 {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-summery {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 10px 0;
+}
+
+.horjental {
+    margin-top: 20px;
+    width: 450px;
+}
+
+.resume-bt {
+    text-align: center;
+    margin: 30px;
+}
+
+footer {
+    background-color: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-info {
+    width: 400px;
+}
+
+.footer-h2 {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.footer-linlk {
+    list-style: none;
+    padding: 10px 10px 10px 0px;
+}
+
+.footer-pra {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.copy-right {
+    background-color: rgb(236, 224, 216);
+    padding: 20px;
+}
+
+.copy-text {
+    font-size: 16px;
 }
