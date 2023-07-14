@@ -297,7 +297,7 @@
     }
     
     .footer-info {
-        /* width: 400px; */
+        width: 500px;
     }
     
     .footer-h2 {
@@ -332,7 +332,7 @@
         border: 0;
         color: #757575;
         background: #fff;
-        width: 100%;
+        width: 500px;
     }
     
     .bt-footer {
@@ -377,6 +377,7 @@
         .new-button {
             /* display: block;
             margin: 10px 0px; */
+            margin-top: 30px;
         }
         .skil-containar {
             flex-direction: column;
@@ -448,6 +449,9 @@
             flex-direction: column;
             gap: 20px;
         }
+        .footer-info {
+            width: 100%;
+        }
         .footer-h2 {
             text-align: center;
         }
@@ -493,7 +497,7 @@
             height: 300px
         }
         header {
-            height: 100vh;
+            height: 90vh;
             background-image: url("./images/hardy.png"), linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582));
             background-position: bottom;
         }
