@@ -357,6 +357,11 @@
         .nav-manu-bar li a {
             color: white;
         }
+        .nav-manu-bar>ul {
+            text-align: center;
+            margin: 10px auto;
+            padding-right: 30px;
+        }
         .display-style {
             /* flex-direction: column;
              */
@@ -462,7 +467,7 @@
             width: 300px;
             align-items: center;
             text-align: center;
-            margin: 0 auto;
+            margin: 10px auto;
         }
         .footer-form-info input[type="text"],
         .footer-form-info input[type="email"],
